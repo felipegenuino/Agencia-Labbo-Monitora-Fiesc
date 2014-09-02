@@ -1,17 +1,17 @@
 # Projeto Monitora FIESC
 Projeto Monitora FIESC, desenvolvido pela agência Labbo
 
-![imagem](https://raw.githubusercontent.com/felipegenuino/Agencia-Labbo-Monitora-Fiesc/gh-pages/images/gif/video-1.gif)
->- **Home page**
+> Home page
+> ![imagem](https://raw.githubusercontent.com/felipegenuino/Agencia-Labbo-Monitora-Fiesc/gh-pages/images/gif/video-1.gif)
 
-![imagem](https://raw.githubusercontent.com/felipegenuino/Agencia-Labbo-Monitora-Fiesc/gh-pages/images/gif/video-2.gif)
->- **Page details**
+> Page details
+> ![imagem](https://raw.githubusercontent.com/felipegenuino/Agencia-Labbo-Monitora-Fiesc/gh-pages/images/gif/video-2.gif)
+ 
+> Nav main
+> ![imagem](https://raw.githubusercontent.com/felipegenuino/Agencia-Labbo-Monitora-Fiesc/gh-pages/images/gif/video-3.gif)
 
-![imagem](https://raw.githubusercontent.com/felipegenuino/Agencia-Labbo-Monitora-Fiesc/gh-pages/images/gif/video-3.gif)
->- **Nav main**
-
->- Guide User Interface 
->- ![imagem](https://raw.githubusercontent.com/felipegenuino/Agencia-Labbo-Monitora-Fiesc/gh-pages/images/gif/video-4.gif)
+> Guide User Interface 
+> ![imagem](https://raw.githubusercontent.com/felipegenuino/Agencia-Labbo-Monitora-Fiesc/gh-pages/images/gif/video-4.gif)
 
 
 ##Links:
