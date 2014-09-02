@@ -1,18 +1,24 @@
-<h1> Projeto Monitora FIESC</h1>
+# Projeto Monitora FIESC
 ==================================
+Projeto Monitora FIESC, desenvolvido pela agência Labbo
 
-<p>Guide User Interface:		
-<a target="_blank" href="http://lab.felipegenuino.com/monitora-fiesc/gui.html">  				http://lab.felipegenuino.com/monitoria-fiesc/gui.html </a> </p>
+![imagem](https://raw.githubusercontent.com/felipegenuino/Agencia-Labbo-Monitora-Fiesc/gh-pages/images/gif/video-1.gif)
+![imagem](https://raw.githubusercontent.com/felipegenuino/Agencia-Labbo-Monitora-Fiesc/gh-pages/images/gif/video-2.gif)
+![imagem](https://raw.githubusercontent.com/felipegenuino/Agencia-Labbo-Monitora-Fiesc/gh-pages/images/gif/video-3.gif)
+![imagem](https://raw.githubusercontent.com/felipegenuino/Agencia-Labbo-Monitora-Fiesc/gh-pages/images/gif/video-4.gif)
 
-<p>Demo Página inicial: 		
-<a target="_blank" href="http://lab.felipegenuino.com/monitora-fiesc/index.html">				http://lab.felipegenuino.com/monitoria-fiesc/index.html </a> </p>
 
-<p>Demo Catergoria detalhada: 	
-<a target="_blank" href="http://lab.felipegenuino.com/monitora-fiesc/categoria-detalhe.html">	http://lab.felipegenuino.com/monitora-fiesc/categoria-detalhe.html </a> </p>
+##Links:
+>- **Guide User Interface** [http://lab.felipegenuino.com/monitora-fiesc/gui.html](http://lab.felipegenuino.com/monitora-fiesc/gui.html)
+>- **Demo Página inicial** [http://lab.felipegenuino.com/monitora-fiesc/index.html](http://lab.felipegenuino.com/monitora-fiesc/index.html)
+>- **Demo Catergoria detalhada** [http://lab.felipegenuino.com/monitora-fiesc/categoria-detalhe.html](http://lab.felipegenuino.com/monitora-fiesc/categoria-detalhe.html)
+>- **Demo Categoria filtro** [http://lab.felipegenuino.com/monitora-fiesc/categoria-filtro.html](http://lab.felipegenuino.com/monitora-fiesc/categoria-filtro.html)
+>- **Demo Página de gráficos** [http://lab.felipegenuino.com/monitora-fiesc/pagina-graficos.html](http://lab.felipegenuino.com/monitora-fiesc/pagina-graficos.html)
 
-<p>Demo Categoria filtro: 		
-<a target="_blank" href="http://lab.felipegenuino.com/monitora-fiesc/categoria-filtro.html">	http://lab.felipegenuino.com/monitora-fiesc/categoria-filtro.html </a> </p>
+  
+###Team
+>- **Manage project** [Maira Scirea](https://www.linkedin.com/profile/view?id=80148868)
+>- **Designer** [Rafael Luiz Carvalho](https://www.labbo.com.br)
+>- **Frontend** [Felipe Genuino](http://felipegenuino.com)
 
-<p>Demo Página de gráficos: 	<a target="_blank" href="http://lab.felipegenuino.com/monitora-fiesc/pagina-graficos.html">		http://lab.felipegenuino.com/monitora-fiesc/pagina-graficos.html </a> </p>
- 
 
