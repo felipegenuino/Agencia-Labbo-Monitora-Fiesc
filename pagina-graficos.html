@@ -1,0 +1,336 @@
+<!doctype html>
+		<html lang="pt-br">
+		<head>
+			<meta charset="UTF-8">
+    		<title>Monitora FIESC | Página gráficos</title>
+				<link rel="stylesheet" href="stylesheet/reset.css" />
+				<link rel="stylesheet" href="stylesheet/960.css" />
+				<link rel="stylesheet" href="stylesheet/tipografy.css" />
+ 				<link rel="stylesheet" href="stylesheet/style.css" />
+ 
+    			<!-- Important Owl stylesheet --> 	<link rel="stylesheet" 	href="lib/owl-carousel/owl.carousel.css">
+    			<!-- Default Theme --> 				<link rel="stylesheet" 	href="lib/owl-carousel/owl.theme.css">
+
+				<link rel="stylesheet" 	href="lib/jquery-ui/smoothness/jquery-ui-1.9.2.custom.css">
+    
+
+		</head>
+		<body>
+
+
+
+
+
+
+
+<!-- ` BARRA UNIVERSAL 
+==================================================================== -->
+		<div id="barra-topo">
+			<div class="container_12">
+							<div id="top-menu" class="grid_12">
+								<ul>
+									<li class="linkHome"> <div class="home"> <em>Sistema FIESC</em> </div> </li>
+									<li class="linkFiesc"><a href="http://www.fiescnet.com.br/"><em>FIESC</em></a></li>
+									<li class="linkCiesc"><a href="http://www2.fiescnet.com.br/web/pt/site_topo/ciesc"><em>CIESC</em></a></li>
+									<li class="linkSesi"><a target="_blank" href="http://www.sesisc.org.br/" onclick="pageTracker._trackPageview('/publicidade/www.sesisc.org.br');"><em>SESI</em></a></li>
+									<li class="linkSenai"><a target="_blank" href="http://www.sc.senai.br/" onclick="pageTracker._trackPageview('/publicidade/www.sc.senai.br');"><em>SENAI</em></a></li>
+									<li class="linkIel"><a target="_self" href="http://www.ielsc.org.br/" onclick="pageTracker._trackPageview('/publicidade/www.ielsc.org.br');"><em>IEL</em></a></li>
+									<!--
+									<li class="linkSindicatos "><a href="/web/pt/site/fiesc/sindicatos/list">SINDICATOS</a></li>
+									 -->
+								</ul>
+								<script type="text/javascript">
+								// Plain javascript for universal compatibility
+								/**
+								 * Add selected class for the top-menu, will look for a element in the body
+								 * with ID attribute equals the top-menu element class attribute and add new
+								 * "selected" class for referent top-menu element.
+								 *
+								 * E.g.:
+								 * &lt;a id="linkFiesc"&gt;&lt;/a&gt;
+								 * If this tag have been found inside body after window.onload, will active the
+								 * "FIESC" top-menu element.
+								 *
+								 * If add attribute name "alone" for the target DOM element, it will clean older
+								 * selections in the top-mentu.
+								 * E.g.:
+								 * &lt;a id="linkSindicatos" name="alone"&gt;&lt;/a&gt;
+								 */
+								window.onload = function() {
+									var menuElements = document.getElementById('top-menu').children[0].children;
+									for (var i=0; i&lt;menuElements.length; i++ ) {
+										var domTarget = document.getElementById( menuElements[i].className.replace(/^\s+|\s+$/g,"") )
+										if(domTarget) {
+											var alone = false;
+											if( domTarget.name == "alone" ) {
+												function clean() {
+													for (var i=0; i&lt;menuElements.length; i++ ) {
+														menuElements[i].className = menuElements[i].className.replace(new RegExp("selected\\b"), "");
+												   	}
+												   	return true;
+											   	}
+												alone = clean();
+											}
+											menuElements[i].className += " selected";
+											if(alone) return;
+											// No needs post checking becouse will execute onload once
+										}
+									}
+								}
+								</script>
+							</div> <!-- //topmenu -->
+
+			</div> <!-- //conteiner-12 -->
+		</div> <!-- //barra-topo -->
+ 
+<!-- ` //BARRA UNIVERSAL 
+==================================================================== -->
+
+
+
+
+
+
+
+
+
+
+<!-- //Região que contem o header -->
+		<div class="region-header">
+			<div class="container_12">
+
+ 					<a href="#" class=" grid_7 logotipo-monitora-fiesc" title="Monitora FIESC"> Monitora FIESC</a> 
+ 					
+ 					<div class="grid_5">
+ 						<input type="search" class="input-search " maxlength="128" size="15" value="" name="search_block_form" title="Pesquisar" placeholder="Pesquisar">
+						<a href="#" class="logotipo-fiesc-principal right" title="FIESC"> Logotipo FIESC</a> 
+ 					</div> <!--// grid_5 -->
+
+ 			</div> <!-- //container_12 -->
+		</div> <!-- //region-header -->
+
+ 
+
+
+
+
+<!-- //Regiao que contem o menu principal -->
+ 		<div class="region-navigation-main">
+			<div class="container_12">
+										
+						<div class="grid_12"> 
+								<ul class="navigation-main">
+									<li class=""> 	<a href="index.html"> <span class="icon-home"></span> <span>Home</span> </a> </li>
+									<li class=""> 	<a href="categoria-filtro.html"> <span class="icon-aeroviario"></span> <span>Aeroviário</span> </a> </li>
+									<li class="em-breve">	<a href="#"> <span class="icon-rodoviario"></span> <span>Rodoviário</span> </a> </li>
+									<li class="em-breve"> 	<a href="#"> <span class="icon-aquaviario"></span> <span>Aquaviário</span> </a> </li>
+									<li class="em-breve"> 	<a href="#"> <span class="icon-ferroviario"></span> <span>Ferroviário</span> </a> </li>
+									<li class="em-breve"> 	<a href="#"> <span class="icon-contencao-de-enchentes"></span> <span>Contenção de enchetes</span> </a> </li>
+									<li class="em-breve"> 	<a href="#"> <span class="icon-energia"></span> <span>Energia</span> </a> </li>
+									<li class="active"> 	<a href="pagina-graficos.html"> <span class="icon-graficos"></span> <span>Gráfico</span> </a> </li>
+								</ul>
+						</div> <!-- //grid_12 -->
+
+			</div> <!-- //container_12 -->
+		</div> <!-- //region-navigation-main -->
+
+
+
+  
+	<div class="region-main">
+		<div class="container_12">
+
+
+ <!-- //filtro aqui -->
+<div class="grid_12"> 
+	<div class="panel filtro-categoria">
+		<h3 class="panel-title"> Filtro gráficos </h3> 
+		<form class="filtro">
+			<fieldset>
+
+					<div class="field field-categoria grid_4">
+						<label> Categoria: </label>
+						<select>
+							<span class="seta"></span>
+							<option value="areoviario">Aeroviário</option>
+							<option value="rodoviario">Rodoviário</option>
+							<option value="aquaviario">Aquaviário</option>
+							<option value="ferroviario">Ferroviário</option>
+							<option value="contencao-de-enchentes">Contenção de enchentes</option>
+							<option value="energia">Energia</option>
+							<option value="graficos">Gráficos</option>
+						</select>
+					</div><!-- //field -->
+
+					<div class="field field-subcategoria grid_4">
+						<label> Subcategoria: </label>
+						<select>
+							<span class="seta"></span>
+							<option value="areoviario">Aeroviário</option>
+							<option value="rodoviario">Rodoviário</option>
+							<option value="aquaviario">Aquaviário</option>
+							<option value="ferroviario">Ferroviário</option>
+							<option value="contencao-de-enchentes">Contenção de enchentes</option>
+							<option value="energia">Energia</option>
+							<option value="graficos">Gráficos</option>
+						</select>
+					</div><!-- //field -->
+
+					<div class="field field-datepicker inicio grid_4">
+						<label> Início:</label> <input type="date" class="datepicker"> <span class="icon-date"></span>
+					</div><!-- //field -->
+
+					<div class="field field-datepicker fim grid_4">
+						<label> Fim:</label> <input type="date" class="datepicker"> <span class="icon-date"></span>
+					</div><!-- //field -->
+ 
+
+			<div class="block-btn-filtro">
+				<a href="#" class="btn btn-large btn-block "> Filtrar	</a>
+					</div> <!--// block-btn-filtro-->
+			</fieldset>
+		</form>
+ </div> <!-- //panel -->
+</div> <!-- // grid_12 -->
+
+
+
+<hr class="space">
+
+ 
+
+<!-- inicia looping de box -->
+	 	<h3 class="grid_12"> Rodoviário</h3>
+
+<div class="grid_6"> 
+	<div class="box">
+		<div class="box-header">  
+			<div class="group-a">  
+					<h4> Categoria</h4>
+			</div><!-- //group-a -->
+		</div><!-- //box-header -->
+		<div class="box-content">
+				<span class="container-chart-status container-chart" ></span>
+		</div><!-- //box-content -->
+	</div><!-- //box -->	 
+</div> <!-- // grid_6 -->
+
+<div class="grid_6"> 
+	<div class="box">
+		<div class="box-header">  
+			<div class="group-a">  
+				<h4> Subcategoria</h4>
+			</div><!-- //group-a -->
+		</div><!-- //box-header -->
+		<div class="box-content">
+				<span class="container-chart-subcategoria container-chart" ></span>
+		</div><!-- //box-content -->
+	</div><!-- //box -->	 
+</div> <!-- // grid_6 -->
+ 
+<div class="grid_6"> 
+	<div class="box">
+		<div class="box-header">  
+			<div class="group-a">  
+				<h4> Principais fatores de atraso das obras</h4>
+			</div><!-- //group-a -->
+		</div><!-- //box-header -->
+		<div class="box-content">
+				<span class="container-chart-fao container-chart" ></span>
+		</div><!-- //box-content -->
+	</div><!-- //box -->	 
+</div> <!-- // grid_6 -->
+
+
+<div class="grid_6"> 
+	<div class="box">
+		<div class="box-header">  
+			<div class="group-a">  
+				<h4> Status</h4>
+			</div><!-- //group-a -->
+		</div><!-- //box-header -->
+		<div class="box-content">
+				<span class="container-chart-categoria container-chart" ></span>
+		</div><!-- //box-content -->
+	</div><!-- //box -->	 
+</div> <!-- // grid_6 -->
+
+
+<!-- // finaliza looping box -->
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 		</div> <!-- //container_12 -->
+	</div> <!-- //region-main -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="region-footer-top">
+		<div class="container_12">
+				<div class="">
+					 <ul class="brand-list">
+					 	<li><a class="logotipo-fiesc-secundario" href="#" title="" alt="Logotipo:FIESC">FIESC, A força da industria catarinense</a> </li>
+					 	<li><a class="logotipo-sustentabilidade" href="#" title="" alt="Logotipo:Sustentabilidade">Logotipo, descrever</a> </li>
+					 </ul>
+				</div> <!-- //null -->
+
+ 		</div> <!-- //container_12 -->
+	</div> <!-- //region-footer-top -->
+
+ 
+	<div class="region-footer-bottom">
+		<div class="container_12">
+
+			<a href="http://www.labbo.com.br/" target="_blank" title="Criação de sites, Lojas Virtuais e Marketing Digital – Labbo Ideias Digitais" class="logotipo-labbo labbo-bottom"> 
+				<span> Labbo</span>
+					</a>
+
+			<div class="grid_6">
+			 	<div class="footer-block right">
+			 		<p> FIESC | Rodovia Admar Gonzaga, 2765 - Itacorubi - 88034-001 - Florianópolis/SC - Brazil  - 48 3231 4662</p> 
+			 	</div> <!-- // footer-block -->
+
+			</div> <!-- //grid_6 -->
+
+			<div class="grid_6"> 
+				<div class="footer-block left">
+					<span>MONITORA FIESC </span>
+					<p>	<a href="mailto:monitorafiesc@fiescnet.com.br"> monitorafiesc@fiescnet.com.br</a> - 48 3231-4303 </p>
+				</div> <!-- // footer-block -->
+			</div> <!-- // grid_6 -->
+					
+		</div> <!-- //container_12 -->
+	</div> <!-- //region-footer-bottom -->
+
+
+  			<!-- // lib jQuery -->  <script src="javascript/jquery.js"></script>
+  			<!-- // lib carousel -->  <script src="lib/owl-carousel/owl.carousel.js"></script>
+  			<!-- // lib charts -->    <script src="lib/charts/highcharts.js"></script>
+			<!-- // lib charts - modulo para exportar grafico -->  <!-- script src="lib/charts/modules/exporting.js"></script -->
+			<!-- // lib charts - modulo para exportar grafico -->  <script src="lib/charts/theme-grid.js"></script>
+			<!-- // Monitora javascript -->    <script src="lib/jquery-ui/jquery-ui-1.9.2.custom.min.js"></script>
+   			<!-- // Monitora javascript -->    <script src="javascript/script.js"></script>
+
+		</body>
+		</html>		
