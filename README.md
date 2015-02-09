@@ -12,11 +12,11 @@ ___
 
 
 ##Links:
->- **Guide User Interface** [http://lab.felipegenuino.com/monitora-fiesc/gui.html](http://lab.felipegenuino.com/monitora-fiesc/gui.html)
->- **Demo Página inicial** [http://lab.felipegenuino.com/monitora-fiesc/index.html](http://lab.felipegenuino.com/monitora-fiesc/index.html)
->- **Demo Catergoria detalhada** [http://lab.felipegenuino.com/monitora-fiesc/categoria-detalhe.html](http://lab.felipegenuino.com/monitora-fiesc/categoria-detalhe.html)
->- **Demo Categoria filtro** [http://lab.felipegenuino.com/monitora-fiesc/categoria-filtro.html](http://lab.felipegenuino.com/monitora-fiesc/categoria-filtro.html)
->- **Demo Página de gráficos** [http://lab.felipegenuino.com/monitora-fiesc/pagina-graficos.html](http://lab.felipegenuino.com/monitora-fiesc/pagina-graficos.html)
+>- **Guide User Interface** [http://felipegenuino.github.io/Agencia-Labbo-Monitora-Fiesc/gui.html](http://felipegenuino.github.io/Agencia-Labbo-Monitora-Fiesc/gui.html)
+>- **Demo Página inicial** [http://felipegenuino.github.io/Agencia-Labbo-Monitora-Fiesc/index.html](http://felipegenuino.github.io/Agencia-Labbo-Monitora-Fiesc/index.html)
+>- **Demo Catergoria detalhada** http://felipegenuino.github.io/Agencia-Labbo-Monitora-Fiesc/categoria-detalhe.html](http://felipegenuino.github.io/Agencia-Labbo-Monitora-Fiesc/categoria-detalhe.html)
+>- **Demo Categoria filtro** [http://felipegenuino.github.io/Agencia-Labbo-Monitora-Fiesc/categoria-filtro.html](http://felipegenuino.github.io/Agencia-Labbo-Monitora-Fiesc/categoria-filtro.html)
+>- **Demo Página de gráficos** [http://felipegenuino.github.io/Agencia-Labbo-Monitora-Fiesc/pagina-graficos.html](http://felipegenuino.github.io/Agencia-Labbo-Monitora-Fiesc/pagina-graficos.html)
 
   
 ###Team
